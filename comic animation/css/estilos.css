@@ -1,0 +1,199 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0 }
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+  display: block;
+  height: 100vh;
+  min-height: 500px;
+  overflow: hidden;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-left: 140px;
+  margin-right: 140px;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.sol{
+  position: absolute;
+  width: 60px;
+  top: 10px;
+  margin-left: 20px;
+  /* animation-name: sol_movimiento;
+  animation-duration: 4s;
+  animation-fill-mode: forwards; */
+  /* animation: go-left-right 3s infinite alternate; */
+  cursor: pointer;
+  
+ 
+    
+}
+.sol_move{
+  animation:  sol_movimiento 9s forwards;
+  
+  /* animation-delay: 1s;  */
+  cursor: pointer;
+}
+
+@keyframes sol_movimiento{
+  0%{
+      left: 0px;
+  }
+  100%{
+      left: calc(90% - 50px);;
+  }
+}
+
+.nubes{
+  position: absolute;
+  width: 30rem;
+  top: 5rem;
+  right: 20px;
+}
+
+.nubes_mueve{
+  animation: nube_animado 25s linear infinite;
+}
+
+@keyframes nube_animado{
+      0%{
+        right: 0px;
+      }
+      100%{
+        right: calc(80% - 50px);
+      }
+}
+
+/* animacion planta */
+
+.planta{
+  position: absolute;
+  width: 11rem;
+  bottom: 120px;
+  margin-left: 450px;
+}
+
+
+  
+
+/*  */   
+
+.dos{
+  position: absolute;  
+  width: 190px;
+  bottom: 85px;
+  left: 45%;
+
+}
+
+@media screen and (1279px <= width <= 1590px) {
+  .planta img{
+		width: 11rem;
+    margin-left: 450px;
+    bottom: 120px;
+	}
+}
+
+
+
+
+@media screen and (1023px <= width <= 1279px) {
+  .planta img{
+		width: 9rem;
+    margin-left: 330px;
+    bottom: 80px;
+    
+	}
+}
+
+@media screen and (800px <= width <= 1203px) {
+  .planta img{
+		width: 8rem;
+    margin-left: 230px;
+    bottom: 70px;
+	}
+}

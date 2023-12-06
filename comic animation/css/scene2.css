@@ -1,0 +1,124 @@
+
+
+
+  
+  .jesus {
+   /*  border-radius: 100%; */
+    /* display: block; */
+    /* height: 300px; */
+    position: absolute;
+    width: 300px;
+    bottom: 120px;
+    margin-left: 30%;
+  }
+  .jesus:hover{
+    transform: scale(1.01);
+    filter: brightness(1.1);
+  }
+ img {
+   /*  border-radius: inherit; */
+    height: inherit;
+    width: inherit;
+  }
+
+ .maria{
+    /* display: block; */
+    position: absolute;
+    width: 90px;
+    bottom: 160px;
+    right: 430px;
+   
+ } 
+
+ .maria:hover{
+  transform: scale(1.01);
+  filter: brightness(1.1);
+    }
+
+.parrafo-jesus{
+  position: absolute;
+  top: 140px;
+  left: 30%;
+  width: 200px;
+  height: 150px;
+  font-size: 12px;
+  background-color: grey;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  
+}    
+  
+.parrafo-jesus{
+  /* width: 250px;
+  padding-bottom: 20px; */
+  transition: ease 1s;
+  opacity: 0.0
+}
+
+.jesus {
+ 
+  transition: 0.3s ease;
+}
+
+.parrafo-jesus:hover {
+  /* background-color: yellow; */
+  transition: 0.3s ease;
+}
+
+.show {
+  transition: ease 0.5s;
+  opacity: 1.0
+}
+
+@keyframes button-animation {
+  0% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.parrafo_maria {
+  position: absolute;
+  top: 150px;
+  right: 250px;
+  width: 200px;
+  height: 150px;
+  font-size: 12px;
+  background-color: grey;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  
+}    
+
+/* .parrafo_maria {
+  transition: ease 1s;
+  opacity: 0.0
+}
+
+.maria{
+  transition: 0.3s ease;
+}
+
+.parrafo_maria :hover {
+  background-color: yellow;
+  transition: 0.3s ease;
+}
+
+.mouse {
+  transition: ease 0.5s;
+  opacity: 1.0
+}
+
+@keyframes mover-animation {
+  0% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+ */

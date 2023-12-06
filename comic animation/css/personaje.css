@@ -1,0 +1,58 @@
+.oculto{
+    display: none;
+}
+
+.dos {
+    position: absolute;
+    width: 190px;
+    bottom: 155px;
+    left: 45%;
+}
+
+.cinco{
+    position: absolute;
+    width: 90%;
+    bottom: 95px;
+    left: 50%;
+}
+
+ .seis{
+    position: absolute;
+    width: 190px;
+    left: 50%;
+    bottom: 145px;
+}
+
+.seis_mover{
+   /*  animation: seis_animado 5s ease-in-out forwards;  */
+    animation: seis_animado-scale  2s linear forwards;
+} 
+
+@keyframes seis_animado{
+    0%{    
+                
+        transform: translateY(0);       
+    }
+    50%{
+        
+        transform: translateY(-100px);      
+    }
+    100%{
+       
+        transform: translateY(-100px);      
+       
+    }
+}
+@keyframes seis_animado-scale{
+    0%{ 
+        transform: scaleX(1) scaleY(1) translateY(0px);            
+        
+    }
+    
+    100%{      
+        transform: scaleX(0.8) scaleY(0.8) translateY(-120px);   
+       
+       
+    }
+}
+

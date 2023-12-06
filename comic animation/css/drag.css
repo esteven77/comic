@@ -1,0 +1,105 @@
+/* #caja{ */
+    /* position: absolute;
+    margin-left: 100px; */
+    /* top: 400px; */
+    /* width: 100px;
+    height: 100px;
+    background-color: brown;
+} */
+
+/* #contenedor{ */
+    /* position: absolute;
+    top: 200px;
+    margin-left: 400px; */
+    /* width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+} 
+
+/* ESTILO1 */
+
+/* body {
+    background-color: #e5edfa;
+  }
+  .hide {
+    display: none;
+  }
+  #draggable-object { */
+    /* background-color: #006eff; */
+    /* width: 9em;
+    height: 9em;
+    border-radius: 0.5em;
+    cursor: move;
+    top: 100px;
+    margin-left: 0px; 
+  }
+  #drop-point {
+    height: 10em;
+    width: 10em;
+    border: 2px dashed #000000; */
+   /*  background-color: aliceblue; */
+   /*  position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* transform: skewX(5deg) skewY(15deg); */
+
+  
+
+  /* body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(135deg, #c3a3f1, #6414e9);
+  }
+  #container .slideshow-container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+  #draggable-elem {
+    position: absolute;
+    background-color: #ffffff;
+    font-size: 1.6em;
+    width: 7em;
+    height: 7em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 10%;
+    top: 10%;
+    display: grid;
+    place-items: center;
+    font-family: "Poppins", sans-serif;
+    border-radius: 0.3em;
+    cursor: move;
+  } */
+
+  #div1 {
+    position: absolute;
+    top: 275px;
+    left: 100px;
+    float: left; 
+    width: 100px;
+    height: 95px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  #div2 {
+    position: absolute;    
+    bottom: 160px;
+    left: 45%;
+    float: left; 
+    width: 100px;
+    height: 95px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }

@@ -1,0 +1,25 @@
+#hand {
+    position: absolute;
+   
+    bottom: 300px;
+    right: 60px;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation: hand 2s infinite alternate;
+  }
+  
+  @keyframes hand {
+    0% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(50px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100px) scale(1.2);
+      opacity: 0.5;
+    }
+  }

@@ -1,0 +1,81 @@
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+}
+
+article {
+    max-width: 375px;
+    font-family: system-ui;
+    /* border: 1px solid #555; */
+    /* color: black;
+    border-radius: 4px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+.title {
+    position: absolute;
+    bottom: -600px;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 16px;
+    width: 200px;
+    
+}
+
+.contenido {
+    padding-inline: 1rem;
+}
+
+.contenido {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: .3s grid-template-rows ease-in-out;
+}
+
+article:hover .contenido {
+    grid-template-rows: 1fr;
+}
+
+.contenido>div {
+    overflow: hidden;
+}  */
+
+/* .contenedor_dos {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .texto {
+    position: absolute;
+    top: 0;
+    left: 0s;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+
+.tres{
+    position: absolute;
+    bottom: 56%;;
+    left: 320px;
+    width: 300px;
+}  
+
+  .contenedor_dos:hover .texto {
+    opacity: 1;
+  }  */
+
+/* personaje 2 */
+

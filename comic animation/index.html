@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/estilos.css">
+  <link rel="stylesheet" href="./css/modal.css">
+  <link rel="stylesheet" href="./css/texto.css">
+  <link rel="stylesheet" href="./css/drag.css">
+  <link rel="stylesheet" href="./css/hoovertext.css">
+  <link rel="stylesheet" href="./css/personaje.css">
+  <link rel="stylesheet" href="./css/flecha.css">
+  <link rel="stylesheet" href="./css/scene2.css">
+ 
+
+</head>
+
+<body>
+  <div class="slideshow-container">
+    <!-- escena uno -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="./imagenes/fondoo  copia4.png" style="width:100%">
+      <div class="text">Caption Text</div>
+
+      <div><img class="sol" src="./imagenes/sol.png" alt=""></div>
+      <div><img class="nubes" src="./imagenes/nubes.png" alt=""></div>
+      <div><img class="planta " src="./imagenes/planta.png" alt=""></div>
+      <div><img class="dos" src="./imagenes/dos.png" alt=""></div>
+
+      <div>
+        <!-- <h2>Animated Modal with Header and Footer</h2> -->
+        <button id="myBtn">Click Aqui </button>
+        <img id="hand" src="./imagenes/flecha.png" alt="hand">
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Instrucciones</h2>
+            </div>
+            <div class="modal-body">
+
+              <p>Pasa el mouse sobre el sol.</p>
+              <p>Pasa el mouse sobre las nubes.</p>
+              <p>Da click en Jesús.</p>
+              
+            </div>
+            <div class="modal-footer">
+              <h3>Jesús Comic</h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="texto_1">
+        <p class="uno">HOLA! esta es la historia de Jesús un campesino de San Vicente Antioquia, que tuvo problemas con
+          unas cosechas, pero gracias a su familia y a su esposa lograron superar esta experiencia, que les dejo un gran
+          conocimiento.</p>
+
+      </div>
+    </div>
+
+    <!-- escena dos -->
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="./imagenes/fondo_animacion.png" style="width:100%">
+      <div class="text">Caption Two</div>
+
+      <div class="titulo"> 
+        <p class="parraf">La historia comienza, Jesús esta preocupado por que los cultivos se enfermaron y no saben porque? , Maria lo aconseja. </p>
+      </div>
+
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="./imagenes/planta2.png" draggable="true" ondragstart="drag(event)" id="drag1" width="90" height="90">
+      </div>
+
+      <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+      
+      <div id="#jesus" >
+        <p   class="parrafo-jesus oculto">- Hola amor <br><br> Estoy preocupado, veo las plantas como enfermas las hojas están muy amarillas como si tuvieran algo, se está pasando en todas las plantas de fresa. </p>
+        <img class="jesus" src="./imagenes/tres.png" />
+      </div>
+
+      <div id="#maria" >
+        <p   class="parrafo_maria oculto">- Hola mi vida <br><br> - Ya preguntaste en el ica o en Corantioquia de pronto ellos saben que tienen los cultivos, no me gusta verte así preocupado, esta es tu vida y es primera vez que nos pasa esto.</p>
+        <img class="maria" src="./imagenes/maria Pe.png" />
+      </div>
+
+
+    </div>
+    <!-- escena tres -->
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="./imagenes/fondo_animacion3.png" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  </div>
+
+
+  <!-- botones -->
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  </div>
+
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <script src="./js/eventos.js"></script>
+  <script src="./js/modal.js"></script>
+  <script src="./js/dragAndDrop..js"></script>
+  <script src="./js/personaje.js"></script>
+  <script src="./js/flecha.js"></script>
+  <script src="./js/hoover.js"></script>
+  <script src="./js/scene2.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+.texto_1{
+    position: absolute;
+    background-color: bisque;
+    height: 80px;
+    padding: 5px;
+    bottom: 10px;
+}
+
+.uno {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+ }
+
+.titulo{
+  position: absolute;
+  background-color: bisque;
+  height: 60px;
+  padding: 5px;
+  bottom: 29px;
+  left: 180px;
+}
+
+.parraf{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+    
+  
